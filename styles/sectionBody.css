@@ -6,4 +6,15 @@
   color: black;
   font-size: 3em;
   text-align: center;
+
+}
+
+.sectionBody .sectionContent {
+  font-size: 2em;
+}
+
+.sectionBody .sectionText {
+  color: red;
+  width: 50vw;
+
 }
