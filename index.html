@@ -2,14 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
     <title>Homepage - Roberto Sanchez</title>
   </head>
   <body>
     <header>
-      <nav>
-        <span id="logo">Roberto Sanchezs</span>
+      <nav id="navBar" class="sticky">
+        <span id="navLogo">Roberto Sanchez</span>
         <span id="navLinks">
           <a href="">Resume</a>
           <a href="">About Me</a>
@@ -20,20 +22,16 @@
         </span>
       </nav>
     </header>
-    <hr />
-    <main>
-      <section>
-        <span id="title">Roberto Sanchez</span>
-        <span id="subTitle">Full stack engineer</span>
-        <img
-          id="splashImage"
-          src="./images/sampleBackground.png"
-          alt="simple background"
-          style="width: 500px;"
-        />
+
+    <main class="container">
+      <section id="hero">
+        <div>
+          <span id="heroTitle">Roberto Sanchez</span>
+          <br />
+          <span id="heroSubTitle">Full stack engineer</span>
+        </div>
       </section>
-      <hr />
-      <section>
+      <section class="sectionBody">
         <h1 class="sectionTitle">About Me</h1>
         <p class="sectionBody">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
@@ -41,50 +39,139 @@
           voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
           quod inventore recusandae quae.
         </p>
+        <p class="sectionBody">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+          quae dolorum, error sunt dolore officiis voluptas fuga culpa,
+          voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
+          quod inventore recusandae quae.
+        </p>
       </section>
-      <section>
+      <section class="sectionBody">
         <h1 class="sectionTitle">Experience</h1>
-        <p class="sectionBody">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          quae dolorum, error sunt dolore officiis voluptas fuga culpa,
-          voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
-          quod inventore recusandae quae.
-        </p>
+        <div>
+          <h3>Talent Path</h3>
+          <h4>July 2019 - Today</h4>
+          <p class="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae quae dolorum, error sunt dolore officiis voluptas fuga
+            culpa, voluptate molestiae deserunt, nulla cum asperiores eaque.
+            Suscipit quod inventore recusandae quae.
+          </p>
+        </div>
+        <div>
+          <h3>Web Solutions and Such</h3>
+          <h4>Sept 2018 - May 2019</h4>
+          <p class="sectionBody">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae quae dolorum, error sunt dolore officiis voluptas fuga
+            culpa, voluptate molestiae deserunt, nulla cum asperiores eaque.
+            Suscipit quod inventore recusandae quae.
+          </p>
+        </div>
       </section>
-      <section>
+      <section class="sectionBody">
         <h1 class="sectionTitle">Education</h1>
-        <p class="sectionBody">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          quae dolorum, error sunt dolore officiis voluptas fuga culpa,
-          voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
-          quod inventore recusandae quae.
-        </p>
+        <div>
+          <h3>CSULB</h3>
+          <h4>Jan 2016 - May 2018</h4>
+          <p class="sectionBody">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae quae dolorum, error sunt dolore officiis voluptas fuga
+            culpa, voluptate molestiae deserunt, nulla cum asperiores eaque.
+            Suscipit quod inventore recusandae quae.
+          </p>
+        </div>
+        <div>
+          <h3>El Camino College</h3>
+          <h4>Sept 2018 - May 2019</h4>
+          <p class="sectionBody">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae quae dolorum, error sunt dolore officiis voluptas fuga
+            culpa, voluptate molestiae deserunt, nulla cum asperiores eaque.
+            Suscipit quod inventore recusandae quae.
+          </p>
+        </div>
       </section>
-      <section>
+      <section class="sectionBody">
         <h1 class="sectionTitle">Skills</h1>
         <p class="sectionBody">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          quae dolorum, error sunt dolore officiis voluptas fuga culpa,
-          voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
-          quod inventore recusandae quae.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+        </ul>
       </section>
-      <section>
+      <section class="sectionBody">
         <h1 class="sectionTitle">Projects</h1>
         <p class="sectionBody">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          quae dolorum, error sunt dolore officiis voluptas fuga culpa,
-          voluptate molestiae deserunt, nulla cum asperiores eaque. Suscipit
-          quod inventore recusandae quae.
+          quae dolorum, error sunt dolore officiis voluptas fuga.
         </p>
+        <div>
+          <span class="sectionTitle">Project 1</span>
+          <img
+            alt="projectImage"
+            class="projectImage"
+            src="https://www.rsanchez92.com/static/img/greyMessagingLogo.1774ca6.png"
+            style="max-width: 100px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            deleniti optio quam fugit ipsam? Doloremque quo repudiandae
+            temporibus. Magni debitis corrupti illo est nobis soluta blanditiis,
+            fugiat ipsa aperiam neque.
+          </p>
+        </div>
+        <div>
+          <span class="sectionTitle">Project 2</span>
+          <img
+            alt="projectImage"
+            class="projectImage"
+            src="https://www.rsanchez92.com/static/img/whatfitsLogo.23c566c.png"
+            style="max-width: 100px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            deleniti optio quam fugit ipsam? Doloremque quo repudiandae
+            temporibus. Magni debitis corrupti illo est nobis soluta blanditiis,
+            fugiat ipsa aperiam neque.
+          </p>
+        </div>
+        <div>
+          <span class="sectionTitle">Project 3</span>
+          <img
+            alt="projectImage"
+            class="projectImage"
+            src="https://www.rsanchez92.com/static/img/personalWebsiteLogo.833187b.png"
+            style="max-width: 100px"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            deleniti optio quam fugit ipsam? Doloremque quo repudiandae
+            temporibus. Magni debitis corrupti illo est nobis soluta blanditiis,
+            fugiat ipsa aperiam neque.
+          </p>
+        </div>
       </section>
     </main>
     <hr />
     <footer>
-      <span>Copyright (C) 2019 - Talen Path?</span>
-      <span><a href="mailto: rsanchez92@live.com">Email</a></span>
-      <span><a href="www.github.com">Github</a></span>
-      <span><a href="www.linkedin.com">LinkedIn</a></span>
+      <span id="copyRight">Copyright (C) 2019 - Talen Path?</span>
+      <span id="footerLinks">
+        <a href="mailto: rsanchez92@live.com"
+          ><i class="far fa-2x fa-envelope"></i
+        ></a>
+        <a href="https://github.com/Zyxel-1"
+          ><i class="fab fa-2x fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/robsanchez92/"
+          ><i class="fab fa-2x fa-linkedin"></i
+        ></a>
+      </span>
     </footer>
   </body>
 </html>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

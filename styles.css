@@ -1,0 +1,15 @@
+@import './styles/navBar.css';
+@import './styles/hero.css';
+@import './styles/sectionBody.css';
+@import './styles/footer.css';
+@import url('https://fonts.googleapis.com/css?family=Oxygen|PT+Sans|Roboto&display=swap');
+
+body {
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
