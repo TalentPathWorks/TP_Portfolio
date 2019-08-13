@@ -1,11 +1,18 @@
 @import './styles/navBar.css';
 @import './styles/hero.css';
 @import './styles/sectionBody.css';
+@import './styles/aboutMe.css';
 @import './styles/footer.css';
+@import './styles/experience.css';
+@import './styles/projects.css';
+@import './styles/skills.css';
 @import url('https://fonts.googleapis.com/css?family=Oxygen|PT+Sans|Roboto&display=swap');
 
 body {
   margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .sticky {

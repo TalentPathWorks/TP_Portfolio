@@ -1,0 +1,21 @@
+.projects .project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.projectImage {
+  max-width: 90%;
+
+}
+
+.project p .projectName {
+  text-align: left;
+}
+
+.sectionBody {
+  text-align: left;
+}
+
+.projectName {
+  font-size: 1.5em;
+}

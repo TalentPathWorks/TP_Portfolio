@@ -1,0 +1,13 @@
+.skills {
+  display: grid;
+  grid-template-columns: ;
+
+}
+
+.skills div {
+  text-align: left;
+}
+
+.skills .skillTitle {
+  font-size: 2em;
+}

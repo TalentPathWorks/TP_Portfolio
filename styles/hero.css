@@ -1,19 +1,16 @@
 #hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/IMG_2040.gif');
 
   background-size: cover;
   height: 100vh;
   text-align: center;
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-
 }
 
-#hero div {
-  padding-top: 40vh;
-}
+#hero div {}
 
 #heroTitle {
   color: white;

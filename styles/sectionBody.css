@@ -1,20 +1,26 @@
-.sectionBody {
-  background-color: white;
+.container {
+  display: grid;
+
+  justify-items: center;
 }
 
-.sectionBody .sectionTitle {
+.sectionBody {
+  grid-area: section;
+  text-align: center;
+}
+
+.sectionTitle {
   color: black;
   font-size: 3em;
   text-align: center;
-
 }
 
-.sectionBody .sectionContent {
-  font-size: 2em;
+.sectionSubTitle {
+  font-size: 1.5em;
+  text-align: center;
 }
 
-.sectionBody .sectionText {
-  color: red;
-  width: 50vw;
+.bodyOfText {
+  padding-left: 20%;
 
 }
